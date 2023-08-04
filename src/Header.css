@@ -4,16 +4,26 @@
 
 .header {
     display: flex;
+    align-items: center;
     background: var(--
     white);
-    align-items: center;
-    justify-content: space-between;
     padding-block: 10px;
     border-bottom: 0.1px solid lightgray;
     width: 100%;
     position: fixed;
     top: 0;
     z-index: 999 b;
+    padding-inline: 5%;
+}
+
+.header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* max-width: 1220px; */
+    width: 100%;
+    margin: 0 auto;
+    /* background: #333; */
 }
 
 .header .header-left {
@@ -24,6 +34,7 @@
 .header .header-left .header-search {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background: var(--searchColor);
     color: gray;
     padding: 10px;

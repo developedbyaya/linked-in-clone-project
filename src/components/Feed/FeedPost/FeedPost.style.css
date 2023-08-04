@@ -1,0 +1,49 @@
+.feed-post {
+    background: var(--white);
+    border: var(--border);
+    border-radius: var(--border-radius);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.name-color {
+    color: #000;
+    font-weight: 700;
+}
+
+.post-header {
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
+
+.user-description .dot {
+    margin-inline: 5px;
+    color: gray;
+}
+
+.skills-section {
+    font-size: 0.8rem;
+}
+
+.user-description .description .name, .skills-section, .date-posted{
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+
+.post-body {
+    margin-top: 0.5rem;
+}
+
+.date-posted {
+    font-size: 0.8rem;
+}
+
+.post-buttons {
+    border-top: var(--border);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+}

@@ -38,5 +38,5 @@
 .feed-input-container .feed-actions {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
