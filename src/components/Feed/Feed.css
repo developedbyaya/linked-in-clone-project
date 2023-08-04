@@ -1,0 +1,42 @@
+
+
+.feed {
+    width: 50%;
+}
+
+.feed-input-container{
+    background: var(--white);
+    border-radius: var(--border-radius);
+    border: var(--border);
+    padding: 0.5rem 1rem;
+    /* display: flex; */
+}
+
+.feed-input-container .feed-input {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding-bottom: 0.5rem;
+}
+
+.feed-input-container .feed-input .start-post {
+    height: 45px;
+    width: 100%;
+    border-radius: 2rem;
+    border: var(--border);
+    text-align: left;
+    padding: 0.7rem;
+    background-color: var(--white);
+    color: gray;
+}
+
+.feed-input-container .feed-input .start-post:hover {
+    background: var(--hoverGray);
+    cursor: pointer;
+}
+
+.feed-input-container .feed-actions {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}

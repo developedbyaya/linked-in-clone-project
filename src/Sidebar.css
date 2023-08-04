@@ -1,0 +1,96 @@
+:root {
+    --border: 1px solid lightgrey;
+}
+
+.sidebar {
+    /* background: #333; */
+    /* position: absolute;
+    top: 90px; */
+    /* flex: 0.2; */
+    width: 20%;
+    font-size: 0.7rem;
+
+}
+
+.sidebar .connections,
+ .sidebar .premium-sign-up,
+ .sidebar .sidebar-description {
+    border-bottom: var(--border);
+    padding-bottom: 0.5rem;
+}
+
+
+
+.sidebar-top,
+.sidebar-bottom {
+    /* border: 1px solid lightgrey; */
+    border: var(--border);
+    border-radius: var(--border-radius);
+    background: var(--white);
+} 
+
+.sidebar-top {
+    margin-bottom: 10px;
+}
+
+.sidebar-top .sidebar-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.sidebar-top h2 {
+    margin-block: 0.5rem;
+}
+
+.sidebar-top p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: gray;
+}
+
+.sidebar-top .profile-image {
+    /* background: url("https: //media.licdn.com/dms/image/D4E16AQF_bC9t9wyMIA/profile-displaybackgroundimage-shrink_350_1400/0/1688054532368?e=1696464000&v=beta&t=W39uarQ-pZKEyyFYlh41s6hPv9Ydkga_B95WoKRllsY"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.sidebar-top .avatar-picture {
+    border: 1px solid var(--white);
+    margin-top: -30px;
+    /* margin-left: 30%; */
+    width: 35%;
+    height: 35%;
+    align-self: center;
+}
+
+.sidebar-top .connections {
+    padding: 0.5rem;
+}
+
+.sidebar-top .connections .connections-stats {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-top .connections .connections-stats p.connection-count {
+    color: var(--linkedInBlue);
+    font-weight: 700;
+}
+.sidebar-top .connections .grow-connections {
+    color: var(--black);
+}
+
+.sidebar-bottom .recents .plus {
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 50%);
+}
+
+.sidebar-bottom .recents h3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -4,6 +4,8 @@
 
 .header {
     display: flex;
+    background: var(--
+    white);
     align-items: center;
     justify-content: space-between;
     padding-block: 10px;
